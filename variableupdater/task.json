@@ -52,6 +52,9 @@
   ],
   "dataSourceBindings": [],
   "execution": {
+    "Node10": {
+      "target": "run-task.js"
+	},
     "PowerShell3": {
       "target": "run-task.ps1"
     }

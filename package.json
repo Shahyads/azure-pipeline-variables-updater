@@ -1,0 +1,15 @@
+{
+  "name": "dependencies",
+  "version": "0.0.1",
+  "description": "dependencies",
+  "scripts": {
+    "preinstall": "nuget restore -source https://www.powershellgallery.com/api/v2 -PackagesDirectory ./packages",
+    "build": "tfx extension create --manifest-globs vss-extension.json"
+  },
+  "author": "Shahyad Sharghi",
+  "license": "MIT",
+  "devDependencies": {
+    "azure-pipelines-task-lib": "latest",
+    "axios": "latest"
+  }
+}
