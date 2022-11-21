@@ -1,5 +1,5 @@
 This is a fork of [Variable Updater](https://github.com/lanalua/azure-pipeline-variables-updater) by Bruno Grillo
-using node implementation from https://github.com/sevaa/azure-pipeline-variables-updater by Seva Alekseyev 
+using node implementation from [run-task.js](https://github.com/sevaa/azure-pipeline-variables-updater/blob/master/variableupdater/run-task.js) by Seva Alekseyev 
 fixing some issues adding some features.
 
 This extension provides a custom build/release task called "Library Variable Updater" to create or update a variable in a Azure DevOps project level variable group (library).

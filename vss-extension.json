@@ -2,7 +2,7 @@
   "manifestVersion": 1,
   "id": "libraryvariableupdater",
   "name": "Library variable updater",
-  "version": "1.0.40",
+  "version": "1.0.41",
   "publisher": "ShahyadS",
   "public": true,
   "targets": [
@@ -12,17 +12,17 @@
   ],
   "repository": {
     "type": "git",
-    "uri": "https://github.com/lanalua/azure-pipeline-variables-updater/tree/master"
+    "uri": "https://github.com/Shahyads/azure-pipeline-variables-updater/tree/master"
   },
   "links": {
     "getstarted": {
-      "uri": "https://github.com/lanalua/azure-pipeline-variables-updater/wiki"
+      "uri": "https://github.com/Shahyads/azure-pipeline-variables-updater/wiki"
     },
     "repository": {
-      "uri": "https://github.com/lanalua/azure-pipeline-variables-updater"
+      "uri": "https://github.com/Shahyads/azure-pipeline-variables-updater"
     },
     "issues": {
-      "uri": "https://github.com/lanalua/azure-pipeline-variables-updater/issues"
+      "uri": "https://github.com/Shahyads/azure-pipeline-variables-updater/issues"
     }
   },
   "scopes": [
