@@ -1,5 +1,5 @@
 Trace-VstsEnteringInvocation $MyInvocation
-
+Write-Output "Start..."
 $VariableGroupId = Get-VstsInput -Name VariableGroupId -Require
 $VariableName = Get-VstsInput -Name VariableName -Require
 $NewValue = Get-VstsInput -Name NewValue -Require

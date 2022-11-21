@@ -1,9 +1,9 @@
 {
   "manifestVersion": 1,
-  "id": "lanalua-variableupdater",
-  "name": "Shared variable updater",
-  "version": "1.0.7",
-  "publisher": "lanalua",
+  "id": "libraryvariableupdater",
+  "name": "Library variable updater",
+  "version": "1.0.40",
+  "publisher": "ShahyadS",
   "public": true,
   "targets": [
     {
@@ -25,9 +25,9 @@
       "uri": "https://github.com/lanalua/azure-pipeline-variables-updater/issues"
     }
   },
-  "scope": [
-    "vso.build",
-    "vso.release"
+  "scopes": [
+	"vso.variablegroups_manage",
+    "vso.serviceendpoint_manage"
   ],
   "description": "Task to update a variable in a variable group (library).\nRequires 'Allow Scripts to Access OAuth Token' and administrator role to 'Project Collection Build Service' in the variable group.",
   "categories": [

@@ -10,6 +10,6 @@
   "license": "MIT",
   "devDependencies": {
     "azure-pipelines-task-lib": "latest",
-    "axios": "latest"
+    "axios": "0.23.0"
   }
 }
