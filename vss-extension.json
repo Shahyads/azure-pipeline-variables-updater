@@ -2,7 +2,7 @@
   "manifestVersion": 1,
   "id": "libraryvariableupdater",
   "name": "Library variable updater",
-  "version": "1.0.41",
+  "version": "1.0.43",
   "publisher": "ShahyadS",
   "public": true,
   "targets": [

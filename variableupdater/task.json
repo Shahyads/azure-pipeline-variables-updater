@@ -13,7 +13,7 @@
   "version": {
     "Major": "1",
     "Minor": "0",
-    "Patch": "8"
+    "Patch": "9"
   },
   "minimumAgentVersion": "2.117.0",
   "instanceNameFormat": "Set library variable $(VariableName) to '$(NewValue)'",
@@ -28,7 +28,7 @@
       "properties": {
         "EditableOptions": "True",
         "DisableManageLink": "True",
-        "IsSearchable": "True"
+        "IsSearchable": "false"
       },
       "helpMarkDown": "The variable group id."
     },
