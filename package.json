@@ -10,6 +10,7 @@
   "license": "MIT",
   "devDependencies": {
     "azure-pipelines-task-lib": "latest",
-    "axios": "0.23.0"
+    "axios": "latest",
+    "https-proxy-agent": "latest"
   }
 }

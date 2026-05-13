@@ -13,7 +13,7 @@
   "version": {
     "Major": "1",
     "Minor": "0",
-    "Patch": "9"
+    "Patch": "25"
   },
   "minimumAgentVersion": "2.117.0",
   "instanceNameFormat": "Set library variable $(VariableName) to '$(NewValue)'",
@@ -57,6 +57,14 @@
       "defaultValue": "false",
       "required": false,
       "helpMarkDown": "Indicates that the cmdlet uses basic parsing (PowerShell 5.1 and lower)"
+    },
+    {
+      "name": "Proxy",
+      "type": "boolean",
+      "label": "Use Proxy",
+      "defaultValue": "false",
+      "required": false,
+      "helpMarkDown": "Use Proxy from https_proxy or http_proxy environment variables on the agent host machine."
     }
   ],
   "dataSourceBindings": [
@@ -77,7 +85,7 @@
       "endpointId": "tfs:teamfoundation",
       "target": "VariableName",
       "endpointUrl": "{{endpoint.url}}/{{system.teamProject}}/_apis/distributedtask/variablegroups?groupIds={{VariableGroupId}}&api-version=4.1-preview.1",
-      "resultSelector": "jsonpath:$.value[*].variables.*~",
+      "resultSelector": "jsonpath:$.value[*].variables[*~]",
       "parameters": {
         "VariableGroupId": "$(VariableGroupId)"
       },
@@ -86,7 +94,7 @@
   
   ],
   "execution": {
-    "Node10": {
+    "Node24": {
       "target": "run-task.js"
 	},
     "PowerShell3": {

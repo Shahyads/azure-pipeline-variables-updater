@@ -2,7 +2,7 @@
   "manifestVersion": 1,
   "id": "libraryvariableupdater",
   "name": "Library variable updater",
-  "version": "1.0.43",
+  "version": "1.0.65",
   "publisher": "ShahyadS",
   "public": true,
   "targets": [
@@ -25,10 +25,7 @@
       "uri": "https://github.com/Shahyads/azure-pipeline-variables-updater/issues"
     }
   },
-  "scopes": [
-	"vso.variablegroups_manage",
-    "vso.serviceendpoint_manage"
-  ],
+  "scopes": [ ],
   "description": "Task to update a variable in a variable group (library).\nRequires 'Allow Scripts to Access OAuth Token' and administrator role to 'Project Collection Build Service' in the variable group.",
   "categories": [
     "Azure Pipelines"
