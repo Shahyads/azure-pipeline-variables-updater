@@ -1,5 +1,5 @@
 const tl = require("azure-pipelines-task-lib/task");
-const HttpsProxyAgent = require('https-proxy-agent');
+const { HttpsProxyAgent } = require('https-proxy-agent');
 const axios = require("axios").default;
 
 async function main()
